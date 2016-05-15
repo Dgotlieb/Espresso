@@ -30,7 +30,7 @@ public class MainTest extends ActivityInstrumentationTestCase2<MainActivity>
 
         onView(withId(R.id.editText)).perform(typeText("John"));
         performClick();
-
+//
     }
 
     private void performClick() {
