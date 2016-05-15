@@ -23,14 +23,13 @@ public class MainTest extends ActivityInstrumentationTestCase2<MainActivity>
         getActivity();
     }
     public void testPhoneIconIsDisplayed() {
-        // When the phone_icon view is available,
-        // check that it is displayed.
+
         onView(withId(R.id.button)).check(matches(isDisplayed()));
         onView(withId(R.id.editText)).check(matches(isDisplayed()));
 
         onView(withId(R.id.editText)).perform(typeText("John"));
         performClick();
-//
+
     }
 
     private void performClick() {
