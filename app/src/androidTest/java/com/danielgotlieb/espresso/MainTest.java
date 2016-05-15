@@ -10,7 +10,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 
 /**
- * Created by daniel.gotlieb on 15/05/2016.
+ ** Created by daniel.gotlieb on 15/05/2016.
  */
 public class MainTest extends ActivityInstrumentationTestCase2<MainActivity>
 {
